@@ -1,0 +1,131 @@
+ 
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0b1e40, #1e2d54);
+      color: #fff;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #f0c14b;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    header h2 {
+      font-size: 1.2rem;
+      color: #dcdcdc;
+      margin-top: 5px;
+    }
+
+    header h3 {
+      font-size: 1rem;
+      color: #a5a5a5;
+      margin-top: 3px;
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 25px;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 15px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    input {
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      min-width: 180px;
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+    }
+
+    input::placeholder {
+      color: #ccc;
+    }
+
+    input:focus {
+      outline: 2px solid #f0c14b;
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    button {
+      background-color: #f0c14b;
+      color: #0b1e40;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #e4b43d;
+      transform: scale(1.05);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      border-radius: 15px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 14px 10px;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    th {
+      background: #f0c14b;
+      color: #0b1e40;
+      font-weight: 600;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    tr:nth-child(odd) {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    tr:hover {
+      background: rgba(240, 193, 75, 0.15);
+      transition: 0.3s ease;
+    }
+
+    td[contenteditable="true"] {
+      outline: none;
+      cursor: text;
+    }
+
+    td[contenteditable="true"]:focus {
+      background: rgba(240, 193, 75, 0.2);
+      border-bottom: 2px solid #f0c14b;
+    }
+  
